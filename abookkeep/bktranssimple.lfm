@@ -1,0 +1,160 @@
+object fmTransSimple: TfmTransSimple
+  Left = 1932
+  Height = 373
+  Top = 418
+  Width = 287
+  BorderIcons = []
+  BorderStyle = bsDialog
+  Caption = 'Транзакция'
+  ClientHeight = 373
+  ClientWidth = 287
+  Position = poMainFormCenter
+  LCLVersion = '1.8.4.0'
+  object pnlControl: TPanel
+    Left = 0
+    Height = 40
+    Top = 333
+    Width = 287
+    Align = alBottom
+    BevelOuter = bvNone
+    ClientHeight = 40
+    ClientWidth = 287
+    TabOrder = 1
+    object btOK: TButton
+      Left = 79
+      Height = 32
+      Top = 4
+      Width = 100
+      Align = alRight
+      BorderSpacing.Around = 4
+      Caption = 'OK'
+      Default = True
+      OnClick = btOKClick
+      TabOrder = 0
+    end
+    object btCancel: TButton
+      Left = 183
+      Height = 32
+      Top = 4
+      Width = 100
+      Align = alRight
+      BorderSpacing.Around = 4
+      Cancel = True
+      Caption = 'Отмена'
+      OnClick = btCancelClick
+      TabOrder = 1
+    end
+  end
+  object gbMain: TGroupBox
+    Left = 4
+    Height = 325
+    Top = 4
+    Width = 279
+    Align = alClient
+    BorderSpacing.Around = 4
+    Caption = 'Транзакция'
+    ClientHeight = 305
+    ClientWidth = 277
+    TabOrder = 0
+    object lbName: TLabel
+      Left = 16
+      Height = 19
+      Top = 168
+      Width = 103
+      Caption = 'Наименование'
+      ParentColor = False
+    end
+    object edName: TEdit
+      Left = 16
+      Height = 36
+      Top = 192
+      Width = 248
+      TabOrder = 3
+      Text = 'edName'
+    end
+    object lbAccount: TLabel
+      Left = 16
+      Height = 19
+      Top = 40
+      Width = 33
+      Caption = 'Счёт'
+      ParentColor = False
+    end
+    object cbAccount: TComboBox
+      Left = 16
+      Height = 35
+      Top = 64
+      Width = 248
+      ItemHeight = 0
+      Style = csDropDownList
+      TabOrder = 1
+    end
+    object lbDate: TLabel
+      Left = 16
+      Height = 19
+      Top = 14
+      Width = 39
+      Caption = 'Дата:'
+      ParentColor = False
+    end
+    object edDate: TDateTimePicker
+      Left = 80
+      Height = 25
+      Top = 8
+      Width = 103
+      CenturyFrom = 1941
+      MaxDate = 2958465
+      MinDate = -53780
+      TabOrder = 0
+      TrailingSeparator = False
+      TextForNullDate = 'NULL'
+      LeadingZeros = True
+      ParentShowHint = False
+      Kind = dtkDate
+      TimeFormat = tf24
+      TimeDisplay = tdHMS
+      DateMode = dmComboBox
+      Date = 43467
+      Time = 0.470993668983283
+      UseDefaultSeparators = True
+      HideDateTimeParts = []
+      MonthNames = 'Long'
+      CalAlignment = dtaRight
+      OnChange = edDateChange
+    end
+    object lbValue: TLabel
+      Left = 16
+      Height = 19
+      Top = 104
+      Width = 45
+      Caption = 'Сумма'
+      ParentColor = False
+    end
+    object edValue: TEdit
+      Left = 16
+      Height = 36
+      Top = 128
+      Width = 248
+      NumbersOnly = True
+      TabOrder = 2
+      Text = 'edValue'
+    end
+    object lbCategory: TLabel
+      Left = 16
+      Height = 19
+      Top = 232
+      Width = 72
+      Caption = 'Категория'
+      ParentColor = False
+    end
+    object cbCategory: TComboBox
+      Left = 16
+      Height = 35
+      Top = 256
+      Width = 248
+      ItemHeight = 0
+      Style = csDropDownList
+      TabOrder = 4
+    end
+  end
+end

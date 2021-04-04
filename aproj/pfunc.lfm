@@ -1,0 +1,226 @@
+object fmPFunc: TfmPFunc
+  Left = 1469
+  Height = 361
+  Top = 179
+  Width = 363
+  BorderIcons = []
+  BorderStyle = bsDialog
+  Caption = 'Функция точки'
+  ClientHeight = 361
+  ClientWidth = 363
+  FormStyle = fsStayOnTop
+  OnClose = FormClose
+  OnKeyDown = FormKeyDown
+  Position = poMainFormCenter
+  LCLVersion = '2.0.10.0'
+  object gb: TGroupBox
+    Left = 8
+    Height = 304
+    Top = 8
+    Width = 345
+    Caption = 'Параметры'
+    ClientHeight = 284
+    ClientWidth = 343
+    TabOrder = 0
+    object lbPointChange: TLabel
+      Left = 8
+      Height = 17
+      Top = 8
+      Width = 127
+      Caption = 'Изменяемая точка'
+      ParentColor = False
+    end
+    object lbInfoChange: TLabel
+      Left = 189
+      Height = 17
+      Top = 8
+      Width = 86
+      Caption = 'lbInfoChange'
+      ParentColor = False
+    end
+    object lbDist1: TLabel
+      Left = 8
+      Height = 17
+      Top = 107
+      Width = 103
+      Caption = 'Расстояние (м):'
+      ParentColor = False
+    end
+    object lbInfo1: TLabel
+      Left = 189
+      Height = 17
+      Top = 75
+      Width = 43
+      Caption = 'lbInfo1'
+      ParentColor = False
+    end
+    object lbPoint2: TLabel
+      Left = 8
+      Height = 17
+      Top = 219
+      Width = 108
+      Caption = 'Базовая точка 2'
+      ParentColor = False
+    end
+    object lbInfo2: TLabel
+      Left = 189
+      Height = 17
+      Top = 219
+      Width = 45
+      Caption = 'lbInfo2'
+      ParentColor = False
+    end
+    object lbPoint1: TLabel
+      Left = 8
+      Height = 17
+      Top = 75
+      Width = 106
+      Caption = 'Базовая точка 1'
+      ParentColor = False
+    end
+    object edDist1: TEdit
+      Left = 136
+      Height = 35
+      Top = 99
+      Width = 120
+      NumbersOnly = True
+      OnChange = cbMirrorClick
+      TabOrder = 1
+      Text = '0'
+    end
+    object lbDist2: TLabel
+      Left = 8
+      Height = 17
+      Top = 251
+      Width = 103
+      Caption = 'Расстояние (м):'
+      ParentColor = False
+    end
+    object edDist2: TEdit
+      Left = 136
+      Height = 35
+      Top = 243
+      Width = 120
+      NumbersOnly = True
+      OnChange = cbMirrorClick
+      TabOrder = 5
+      Text = '0'
+    end
+    object btPointChange: TSpeedButton
+      Left = 152
+      Height = 22
+      Top = 5
+      Width = 23
+      Caption = '...'
+      OnClick = btPointChangeClick
+    end
+    object btPoint1: TSpeedButton
+      Left = 152
+      Height = 22
+      Top = 72
+      Width = 23
+      Caption = '...'
+      OnClick = btPoint1Click
+    end
+    object btPoint2: TSpeedButton
+      Left = 152
+      Height = 22
+      Top = 216
+      Width = 23
+      Caption = '...'
+      OnClick = btPoint2Click
+    end
+    object cbCatet1: TCheckBox
+      Left = 264
+      Height = 23
+      Top = 103
+      Width = 65
+      Caption = 'Катет'
+      OnClick = cbMirrorClick
+      TabOrder = 2
+    end
+    object cbCatet2: TCheckBox
+      Left = 264
+      Height = 23
+      Top = 247
+      Width = 65
+      Caption = 'Катет'
+      OnClick = cbMirrorClick
+      TabOrder = 6
+    end
+    object bv2: TBevel
+      Left = 8
+      Height = 10
+      Top = 208
+      Width = 328
+      Shape = bsTopLine
+    end
+    object bv1: TBevel
+      Left = 8
+      Height = 10
+      Top = 64
+      Width = 328
+      Shape = bsTopLine
+    end
+    object cbMirror: TCheckBox
+      Left = 8
+      Height = 23
+      Top = 32
+      Width = 97
+      Caption = 'Зеркально'
+      OnClick = cbMirrorClick
+      TabOrder = 0
+    end
+    object cbPolar: TCheckBox
+      Left = 8
+      Height = 23
+      Top = 136
+      Width = 177
+      Caption = 'Полярные координаты'
+      OnClick = cbMirrorClick
+      TabOrder = 3
+    end
+    object lbAngle: TLabel
+      Left = 8
+      Height = 17
+      Top = 171
+      Width = 117
+      Caption = 'Азимут (градусы):'
+      ParentColor = False
+    end
+    object edAngle: TEdit
+      Left = 136
+      Height = 35
+      Top = 163
+      Width = 120
+      OnChange = cbMirrorClick
+      TabOrder = 4
+      Text = '0'
+    end
+  end
+  object btMove: TButton
+    Left = 16
+    Height = 30
+    Top = 320
+    Width = 123
+    Caption = 'Переместить'
+    OnClick = btMoveClick
+    TabOrder = 1
+  end
+  object btMoveObject: TButton
+    Left = 152
+    Height = 30
+    Top = 320
+    Width = 192
+    Caption = 'Переместить с объектом'
+    OnClick = btMoveObjectClick
+    TabOrder = 2
+  end
+  object tm: TTimer
+    Enabled = False
+    Interval = 50
+    OnTimer = tmTimer
+    Left = 296
+    Top = 176
+  end
+end

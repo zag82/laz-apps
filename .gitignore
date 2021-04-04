@@ -1,0 +1,18 @@
+# Specify filepatterns you want git to ignore.
+
+*.exe
+*.dll
+*.dbg
+*.ppu
+*.o
+*.compiled
+backup/
+*/lib/
+
+aproj/aproj
+amenu/amenu
+acalendar/acal2
+abookkeep/abook
+anav3/anav3
+
+aproj/aproj.data/

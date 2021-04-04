@@ -1,0 +1,226 @@
+object fmTreeBase: TfmTreeBase
+  Left = 494
+  Height = 628
+  Top = 112
+  Width = 870
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'База деревьев и кустарников'
+  ClientHeight = 628
+  ClientWidth = 870
+  FormStyle = fsStayOnTop
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  Position = poMainFormCenter
+  LCLVersion = '2.0.10.0'
+  object gbParams: TGroupBox
+    Left = 260
+    Height = 580
+    Top = 4
+    Width = 606
+    Align = alClient
+    BorderSpacing.Around = 4
+    Caption = 'Параметры'
+    ClientHeight = 557
+    ClientWidth = 604
+    TabOrder = 0
+    object lbName: TLabel
+      Left = 8
+      Height = 20
+      Top = 8
+      Width = 111
+      Caption = 'Наименование'
+      ParentColor = False
+    end
+    object lbDescr: TLabel
+      Left = 8
+      Height = 20
+      Top = 40
+      Width = 72
+      Caption = 'Описание'
+      ParentColor = False
+    end
+    object edName: TEdit
+      Left = 122
+      Height = 38
+      Top = 0
+      Width = 477
+      Anchors = [akTop, akLeft, akRight]
+      OnChange = edNameChange
+      TabOrder = 0
+    end
+    object mmDescr: TMemo
+      Left = 122
+      Height = 250
+      Top = 40
+      Width = 475
+      Anchors = [akTop, akLeft, akRight]
+      OnChange = edNameChange
+      ScrollBars = ssBoth
+      TabOrder = 1
+    end
+    object lbRadius: TLabel
+      Left = 8
+      Height = 20
+      Top = 304
+      Width = 133
+      Caption = 'Радиус кроны (м)'
+      ParentColor = False
+    end
+    object edRadius: TEdit
+      Left = 130
+      Height = 38
+      Top = 296
+      Width = 80
+      NumbersOnly = True
+      OnChange = edNameChange
+      TabOrder = 2
+    end
+    object lbColor: TLabel
+      Left = 224
+      Height = 20
+      Top = 304
+      Width = 53
+      Caption = 'Контур'
+      ParentColor = False
+    end
+    object lbFill: TLabel
+      Left = 360
+      Height = 20
+      Top = 304
+      Width = 64
+      Caption = 'Заливка'
+      ParentColor = False
+    end
+    object spColor: TShape
+      Left = 280
+      Height = 33
+      Top = 296
+      Width = 57
+      OnMouseDown = spColorMouseDown
+    end
+    object spFill: TShape
+      Left = 424
+      Height = 33
+      Top = 296
+      Width = 57
+      OnMouseDown = spFillMouseDown
+    end
+  end
+  object pnlControl: TPanel
+    Left = 0
+    Height = 40
+    Top = 588
+    Width = 870
+    Align = alBottom
+    BevelOuter = bvNone
+    ClientHeight = 40
+    ClientWidth = 870
+    TabOrder = 1
+    object btOk: TButton
+      Left = 649
+      Height = 32
+      Top = 4
+      Width = 115
+      Align = alRight
+      BorderSpacing.Around = 4
+      Caption = 'Сохранить'
+      OnClick = btOkClick
+      TabOrder = 0
+    end
+    object btCancel: TButton
+      Left = 768
+      Height = 32
+      Top = 4
+      Width = 98
+      Align = alRight
+      BorderSpacing.Around = 4
+      Caption = 'Закрыть'
+      OnClick = btCancelClick
+      TabOrder = 1
+    end
+    object btAddToProject: TButton
+      Left = 12
+      Height = 32
+      Top = 4
+      Width = 233
+      Align = alLeft
+      BorderSpacing.Left = 8
+      BorderSpacing.Around = 4
+      Caption = 'Перенести в проект'
+      OnClick = btAddToProjectClick
+      TabOrder = 2
+    end
+  end
+  object gbList: TGroupBox
+    Left = 4
+    Height = 580
+    Top = 4
+    Width = 252
+    Align = alLeft
+    BorderSpacing.Around = 4
+    Caption = 'Наименования'
+    ClientHeight = 557
+    ClientWidth = 250
+    TabOrder = 2
+    object btTreeAdd: TButton
+      Left = 32
+      Height = 25
+      Top = 8
+      Width = 88
+      Caption = 'Добавить'
+      OnClick = btTreeAddClick
+      TabOrder = 0
+    end
+    object btTreeDel: TButton
+      Left = 144
+      Height = 25
+      Top = 8
+      Width = 80
+      Caption = 'Удалить'
+      OnClick = btTreeDelClick
+      TabOrder = 1
+    end
+    object tv: TTreeView
+      Left = 8
+      Height = 509
+      Top = 40
+      Width = 233
+      Anchors = [akTop, akLeft, akRight, akBottom]
+      ReadOnly = True
+      ShowRoot = False
+      SortType = stText
+      TabOrder = 2
+      OnDblClick = tvDblClick
+      OnSelectionChanged = tvSelectionChanged
+      Options = [tvoAutoItemHeight, tvoHideSelection, tvoKeepCollapsedNodes, tvoReadOnly, tvoShowButtons, tvoShowLines, tvoToolTips, tvoThemedDraw]
+    end
+  end
+  object cDlg: TColorDialog
+    Color = clBlack
+    CustomColors.Strings = (
+      'ColorA=000000'
+      'ColorB=000080'
+      'ColorC=008000'
+      'ColorD=008080'
+      'ColorE=800000'
+      'ColorF=800080'
+      'ColorG=808000'
+      'ColorH=808080'
+      'ColorI=C0C0C0'
+      'ColorJ=0000FF'
+      'ColorK=00FF00'
+      'ColorL=00FFFF'
+      'ColorM=FF0000'
+      'ColorN=FF00FF'
+      'ColorO=FFFF00'
+      'ColorP=FFFFFF'
+      'ColorQ=C0DCC0'
+      'ColorR=F0CAA6'
+      'ColorS=F0FBFF'
+      'ColorT=A4A0A0'
+    )
+    Left = 321
+    Top = 225
+  end
+end

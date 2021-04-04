@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="11"/>
+    <BuildModes Active="Release"/>
+    <Units Count="37">
+      <Unit0>
+        <Filename Value="anav3.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="40" Y="11"/>
+        <UsageCount Value="92"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="mainnav.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fmMainNav3"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="164"/>
+        <CursorPos X="11" Y="164"/>
+        <UsageCount Value="92"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="navdata.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="92"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="settings.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="23"/>
+        <CursorPos X="31" Y="37"/>
+        <UsageCount Value="44"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="createnav.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fmCreateNav"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="32"/>
+        <CursorPos X="12" Y="47"/>
+        <UsageCount Value="42"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="/opt/laz/uniqueinstance/uniqueinstancebase.pas"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="/opt/laz/uniqueinstance/uniqueinstanceraw.pas"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="../lib/uniqueinstance/uniqueinstancebase.pas"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="../lib/uniqueinstance/uniqueinstanceraw.pas"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="uniqueinstancebase.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="35"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="uniqueinstanceraw.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="35"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="filesnav.pas"/>
+        <ComponentName Value="fmShowFiles"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="5"/>
+        <CursorPos X="29" Y="23"/>
+        <UsageCount Value="19"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="crypt/dcpblockciphers.pas"/>
+        <UnitName Value="DCPblockciphers"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="477"/>
+        <CursorPos Y="479"/>
+        <UsageCount Value="42"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="crypt/dcpconst.pas"/>
+        <UnitName Value="DCPconst"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="42"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="crypt/dcpcrypt2.pas"/>
+        <UnitName Value="DCPcrypt2"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="15" Y="25"/>
+        <UsageCount Value="42"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="crypt/dcprc6.pas"/>
+        <UnitName Value="DCPrc6"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="47"/>
+        <CursorPos X="3" Y="139"/>
+        <UsageCount Value="42"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="crypt/dcpbase64.pas"/>
+        <UnitName Value="DCPbase64"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="41"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="RC6.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="155"/>
+        <CursorPos X="9" Y="168"/>
+        <UsageCount Value="25"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="acrt.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="68"/>
+        <CursorPos X="53" Y="77"/>
+        <UsageCount Value="24"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="editnav.pas"/>
+        <ComponentName Value="fmNavEdit"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="12" Y="19"/>
+        <UsageCount Value="24"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="/usr/lib/lazarus/lcl/controls.pp"/>
+        <UnitName Value="Controls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2306"/>
+        <CursorPos X="14" Y="2323"/>
+        <UsageCount Value="6"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="/usr/lib/lazarus/lcl/graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="567"/>
+        <CursorPos X="14" Y="583"/>
+        <UsageCount Value="6"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="/usr/lib/fpc/src/rtl/objpas/sysutils/syshelph.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="451"/>
+        <CursorPos X="20" Y="471"/>
+        <UsageCount Value="6"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="../../../media/dcpcrypt-2.0.4.1/Ciphers/dcprc6.pas"/>
+        <UnitName Value="DCPrc6"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="80"/>
+        <UsageCount Value="6"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="/usr/lib/fpc/src/rtl/objpas/classes/classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="971"/>
+        <CursorPos X="23" Y="988"/>
+        <UsageCount Value="11"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="/usr/lib/lazarus/lcl/lcltype.pp"/>
+        <UnitName Value="LCLType"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1231"/>
+        <CursorPos X="3" Y="429"/>
+        <UsageCount Value="6"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="/usr/lib/fpc/src/rtl/objpas/sysutils/sysutilh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="81"/>
+        <CursorPos X="20" Y="98"/>
+        <UsageCount Value="6"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="../aproj/dataproj.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="207"/>
+        <CursorPos X="13" Y="224"/>
+        <UsageCount Value="6"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="procdata.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="161"/>
+        <CursorPos Y="182"/>
+        <UsageCount Value="11"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="/usr/lib/fpc/src/packages/fcl-base/src/blowfish.pp"/>
+        <UnitName Value="BlowFish"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="610"/>
+        <CursorPos X="3" Y="601"/>
+        <UsageCount Value="10"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="/usr/lib/lazarus/lcl/comctrls.pp"/>
+        <UnitName Value="ComCtrls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2973"/>
+        <CursorPos X="14" Y="2989"/>
+        <UsageCount Value="10"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="/usr/lib/lazarus/lcl/include/treeview.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1585"/>
+        <CursorPos Y="1602"/>
+        <UsageCount Value="10"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="/opt/laz/lnet/lazaruspackage/lclnet.pas"/>
+        <UnitName Value="LCLNet"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="29"/>
+        <CursorPos X="32" Y="50"/>
+        <UsageCount Value="8"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="/usr/lib/lazarus/lcl/grids.pas"/>
+        <UnitName Value="Grids"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3009"/>
+        <CursorPos Y="3026"/>
+        <UsageCount Value="13"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="/usr/lib/fpc/src/rtl/objpas/classes/lists.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="713"/>
+        <CursorPos X="3" Y="717"/>
+        <UsageCount Value="10"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="/usr/lib/fpc/src/packages/fcl-json/src/fpjson.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="564"/>
+        <CursorPos X="14" Y="576"/>
+        <UsageCount Value="9"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="/usr/lib/fpc/src/rtl/inc/objpash.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="178"/>
+        <CursorPos X="23" Y="194"/>
+        <UsageCount Value="9"/>
+      </Unit36>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="mainnav.pas"/>
+        <Caret Line="1025" Column="7" TopLine="1009"/>
+      </Position1>
+      <Position2>
+        <Filename Value="mainnav.pas"/>
+        <Caret Line="1068" Column="7" TopLine="1053"/>
+      </Position2>
+      <Position3>
+        <Filename Value="mainnav.pas"/>
+        <Caret Line="1073" Column="7" TopLine="1053"/>
+      </Position3>
+      <Position4>
+        <Filename Value="mainnav.pas"/>
+        <Caret Line="729" Column="21" TopLine="711"/>
+      </Position4>
+      <Position5>
+        <Filename Value="mainnav.pas"/>
+        <Caret Line="699" TopLine="682"/>
+      </Position5>
+      <Position6>
+        <Filename Value="mainnav.pas"/>
+        <Caret Line="700" TopLine="682"/>
+      </Position6>
+      <Position7>
+        <Filename Value="mainnav.pas"/>
+        <Caret Line="702" TopLine="682"/>
+      </Position7>
+      <Position8>
+        <Filename Value="mainnav.pas"/>
+        <Caret Line="709" TopLine="682"/>
+      </Position8>
+      <Position9>
+        <Filename Value="mainnav.pas"/>
+        <Caret Line="710" TopLine="683"/>
+      </Position9>
+      <Position10>
+        <Filename Value="mainnav.pas"/>
+        <Caret Line="712" TopLine="685"/>
+      </Position10>
+      <Position11>
+        <Filename Value="mainnav.pas"/>
+        <Caret Line="713" TopLine="686"/>
+      </Position11>
+      <Position12>
+        <Filename Value="mainnav.pas"/>
+        <Caret Line="715" TopLine="688"/>
+      </Position12>
+      <Position13>
+        <Filename Value="mainnav.pas"/>
+        <Caret Line="716" TopLine="689"/>
+      </Position13>
+      <Position14>
+        <Filename Value="mainnav.pas"/>
+        <Caret Line="718" TopLine="691"/>
+      </Position14>
+      <Position15>
+        <Filename Value="mainnav.pas"/>
+        <Caret Line="719" TopLine="692"/>
+      </Position15>
+      <Position16>
+        <Filename Value="mainnav.pas"/>
+        <Caret Line="721" TopLine="695"/>
+      </Position16>
+      <Position17>
+        <Filename Value="mainnav.pas"/>
+        <Caret Line="722" TopLine="696"/>
+      </Position17>
+      <Position18>
+        <Filename Value="mainnav.pas"/>
+        <Caret Line="723" TopLine="697"/>
+      </Position18>
+      <Position19>
+        <Filename Value="mainnav.pas"/>
+        <Caret Line="729" TopLine="713"/>
+      </Position19>
+      <Position20>
+        <Filename Value="mainnav.pas"/>
+        <Caret Line="730" TopLine="713"/>
+      </Position20>
+      <Position21>
+        <Filename Value="mainnav.pas"/>
+        <Caret Line="703" Column="8" TopLine="688"/>
+      </Position21>
+      <Position22>
+        <Filename Value="mainnav.pas"/>
+        <Caret Line="280" Column="10" TopLine="262"/>
+      </Position22>
+      <Position23>
+        <Filename Value="mainnav.pas"/>
+        <Caret Line="736" Column="23" TopLine="711"/>
+      </Position23>
+      <Position24>
+        <Filename Value="mainnav.pas"/>
+        <Caret Line="175" Column="9" TopLine="148"/>
+      </Position24>
+      <Position25>
+        <Filename Value="mainnav.pas"/>
+        <Caret Line="707" Column="9" TopLine="680"/>
+      </Position25>
+      <Position26>
+        <Filename Value="mainnav.pas"/>
+        <Caret Line="729" Column="17" TopLine="703"/>
+      </Position26>
+      <Position27>
+        <Filename Value="mainnav.pas"/>
+        <Caret Line="730" Column="17" TopLine="704"/>
+      </Position27>
+      <Position28>
+        <Filename Value="mainnav.pas"/>
+        <Caret Line="1097" Column="7" TopLine="950"/>
+      </Position28>
+      <Position29>
+        <Filename Value="mainnav.pas"/>
+        <Caret Line="740" Column="5" TopLine="700"/>
+      </Position29>
+      <Position30>
+        <Filename Value="mainnav.pas"/>
+        <Caret Line="363" Column="14" TopLine="359"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

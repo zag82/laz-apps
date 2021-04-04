@@ -1,0 +1,50 @@
+{
+    "home": "/home/user",
+    "BORDER_GAP": 10,
+    "BORDER_ITM": 5,
+
+    "items":[
+        {
+            "root": true,
+            "name": "Web:",
+            "command": "",
+            "shortcut": ""
+        },
+        {
+            "root": false,
+            "name": "chromium - Main browser",
+            "command": "chromium",
+            "shortcut": "c"
+        },
+        {
+            "root": false,
+            "name": "firefox - Reading and web pages testing",
+            "command": "firefox",
+            "shortcut": "f"
+        },
+        {
+            "root": true,
+            "name": "-------------------------------------------------",
+            "command": "",
+            "shortcut": ""
+        },
+        {
+            "root": true,
+            "name": "System:",
+            "command": "",
+            "shortcut": ""
+        },
+        {
+            "root": false,
+            "name": "Shutdown - shutting down computer",
+            "command": "systemctl poweroff",
+            "shortcut": "s"
+        },
+        {
+            "root": false,
+            "name": "Reboot   - reboot computer",
+            "command": "systemctl reboot",
+            "shortcut": "r"
+        }
+    ]
+}

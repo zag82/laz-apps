@@ -1,0 +1,18 @@
+object fmMainMenu: TfmMainMenu
+  Left = 432
+  Height = 240
+  Top = 281
+  Width = 320
+  AlphaBlend = True
+  AlphaBlendValue = 240
+  BorderStyle = bsNone
+  Caption = 'Меню'
+  FormStyle = fsStayOnTop
+  OnCreate = FormCreate
+  OnDblClick = FormDblClick
+  OnDestroy = FormDestroy
+  OnKeyDown = FormKeyDown
+  OnMouseDown = FormMouseDown
+  OnPaint = FormPaint
+  LCLVersion = '2.0.10.0'
+end

@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="11"/>
+    <BuildModes Count="2" Active="Release">
+      <Item1 Name="Debug">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <Target>
+            <Filename Value="aproj"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <Parsing>
+            <SyntaxOptions>
+              <IncludeAssertionCode Value="True"/>
+            </SyntaxOptions>
+          </Parsing>
+          <CodeGeneration>
+            <Checks>
+              <IOChecks Value="True"/>
+              <RangeChecks Value="True"/>
+              <OverflowChecks Value="True"/>
+              <StackChecks Value="True"/>
+            </Checks>
+            <VerifyObjMethodCallValidity Value="True"/>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <DebugInfoType Value="dsDwarf2Set"/>
+              <UseHeaptrc Value="True"/>
+              <TrashVariables Value="True"/>
+              <UseExternalDbgSyms Value="True"/>
+            </Debugging>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+          <Other>
+            <CompilerMessages>
+              <IgnoredMessages idx5024="True"/>
+            </CompilerMessages>
+          </Other>
+        </CompilerOptions>
+      </Item1>
+      <Item2 Name="Release">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <Target>
+            <Filename Value="aproj"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <CodeGeneration>
+            <SmartLinkUnit Value="True"/>
+            <Optimizations>
+              <OptimizationLevel Value="3"/>
+            </Optimizations>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <GenerateDebugInfo Value="False"/>
+            </Debugging>
+            <LinkSmart Value="True"/>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+          <Other>
+            <CompilerMessages>
+              <IgnoredMessages idx5024="True"/>
+            </CompilerMessages>
+          </Other>
+        </CompilerOptions>
+      </Item2>
+    </BuildModes>
+    <Units Count="32">
+      <Unit0>
+        <Filename Value="aproj.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="9" Y="18"/>
+        <UsageCount Value="198"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="mainproj.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fmMainProj"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="700"/>
+        <CursorPos Y="712"/>
+        <UsageCount Value="198"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="dataproj.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="23"/>
+        <CursorPos X="10" Y="36"/>
+        <UsageCount Value="186"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="graphproj.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="916"/>
+        <CursorPos X="34" Y="939"/>
+        <UsageCount Value="185"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="aboutproj.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fmAboutProj"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="18"/>
+        <CursorPos X="7" Y="44"/>
+        <UsageCount Value="183"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="propsproj.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fmPropsProj"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="61"/>
+        <CursorPos X="3" Y="87"/>
+        <UsageCount Value="183"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="pfunc.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fmPFunc"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="80"/>
+        <CursorPos Y="97"/>
+        <UsageCount Value="102"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="simpleobject.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fmSimpleObject"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="143"/>
+        <CursorPos X="14" Y="148"/>
+        <UsageCount Value="87"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="treebase.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fmTreeBase"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="111"/>
+        <CursorPos X="2" Y="120"/>
+        <UsageCount Value="83"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="meshcontrol.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fmMeshControl"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="60"/>
+        <CursorPos X="3" Y="79"/>
+        <UsageCount Value="77"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="dialogfiles.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fmDialogFiles"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="74"/>
+        <CursorPos X="8" Y="101"/>
+        <UsageCount Value="53"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="/usr/lib/lazarus/components/opengl/openglcontext.pas"/>
+        <UnitName Value="OpenGLContext"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="54"/>
+        <CursorPos X="4" Y="71"/>
+        <UsageCount Value="6"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="/usr/lib/lazarus/lcl/lcltype.pp"/>
+        <UnitName Value="LCLType"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2297"/>
+        <CursorPos X="18" Y="2318"/>
+        <UsageCount Value="8"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="/usr/lib/fpc/src/rtl/objpas/classes/classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2126"/>
+        <CursorPos X="10" Y="2144"/>
+        <UsageCount Value="7"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="/usr/lib/fpc/src/rtl/objpas/classes/streams.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="465"/>
+        <CursorPos X="5" Y="472"/>
+        <UsageCount Value="2"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="/usr/lib/fpc/src/rtl/inc/objpash.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="179"/>
+        <CursorPos X="23" Y="194"/>
+        <UsageCount Value="7"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="/usr/lib/lazarus/lcl/graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1872"/>
+        <CursorPos X="10" Y="1888"/>
+        <UsageCount Value="7"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="/usr/lib/lazarus/lcl/comctrls.pp"/>
+        <UnitName Value="ComCtrls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3008"/>
+        <CursorPos X="14" Y="3022"/>
+        <UsageCount Value="1"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="/usr/lib/fpc/src/rtl/objpas/math.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="198"/>
+        <CursorPos X="10" Y="214"/>
+        <UsageCount Value="3"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="/usr/lib/fpc/src/packages/fcl-image/src/fpcanvas.pp"/>
+        <UnitName Value="FPCanvas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="142"/>
+        <CursorPos X="73" Y="159"/>
+        <UsageCount Value="5"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="../../../media/aPlanner/plannermain.pas"/>
+        <ComponentName Value="fmPlannerMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="PlannerMain"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="633"/>
+        <CursorPos X="35" Y="656"/>
+        <UsageCount Value="5"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="../../../media/anav3/mainnav.pas"/>
+        <ComponentName Value="fmMainNav3"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="600"/>
+        <CursorPos Y="624"/>
+        <UsageCount Value="3"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="../../../media/aPlanner/planconsts.pas"/>
+        <UnitName Value="planConsts"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="13"/>
+        <UsageCount Value="3"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="../../../media/aPlanner/plandata.pas"/>
+        <UnitName Value="planData"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="290"/>
+        <CursorPos Y="311"/>
+        <UsageCount Value="8"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="/usr/lib/lazarus/lcl/dialogs.pp"/>
+        <UnitName Value="Dialogs"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="104"/>
+        <CursorPos X="14" Y="119"/>
+        <UsageCount Value="7"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="/usr/lib/fpc/src/rtl/objpas/classes/classes.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1090"/>
+        <CursorPos X="3" Y="1095"/>
+        <UsageCount Value="7"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="/usr/lib/lazarus/lcl/include/customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="202"/>
+        <CursorPos X="7" Y="218"/>
+        <UsageCount Value="8"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="/usr/lib/lazarus/lcl/include/application.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1076"/>
+        <CursorPos Y="1099"/>
+        <UsageCount Value="8"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="/usr/lib/lazarus/lcl/forms.pp"/>
+        <UnitName Value="Forms"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1918"/>
+        <CursorPos Y="1935"/>
+        <UsageCount Value="8"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="/usr/lib/fpc/src/rtl/inc/mathh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="78"/>
+        <CursorPos X="15" Y="94"/>
+        <UsageCount Value="8"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="/usr/lib/fpc/src/rtl/inc/genmath.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="154"/>
+        <CursorPos X="10" Y="157"/>
+        <UsageCount Value="8"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="/usr/lib/lazarus/lcl/include/control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3532"/>
+        <CursorPos Y="3545"/>
+        <UsageCount Value="10"/>
+      </Unit31>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="simpleobject.pas"/>
+        <Caret Line="212" TopLine="198"/>
+      </Position1>
+      <Position2>
+        <Filename Value="simpleobject.pas"/>
+        <Caret Line="213" TopLine="198"/>
+      </Position2>
+      <Position3>
+        <Filename Value="simpleobject.pas"/>
+        <Caret Line="214" TopLine="198"/>
+      </Position3>
+      <Position4>
+        <Filename Value="simpleobject.pas"/>
+        <Caret Line="216" TopLine="198"/>
+      </Position4>
+      <Position5>
+        <Filename Value="simpleobject.pas"/>
+        <Caret Line="217" TopLine="198"/>
+      </Position5>
+      <Position6>
+        <Filename Value="simpleobject.pas"/>
+        <Caret Line="218" TopLine="198"/>
+      </Position6>
+      <Position7>
+        <Filename Value="simpleobject.pas"/>
+        <Caret Line="219" TopLine="199"/>
+      </Position7>
+      <Position8>
+        <Filename Value="simpleobject.pas"/>
+        <Caret Line="214" TopLine="199"/>
+      </Position8>
+      <Position9>
+        <Filename Value="simpleobject.pas"/>
+        <Caret Line="216" TopLine="199"/>
+      </Position9>
+      <Position10>
+        <Filename Value="simpleobject.pas"/>
+        <Caret Line="217" TopLine="199"/>
+      </Position10>
+      <Position11>
+        <Filename Value="simpleobject.pas"/>
+        <Caret Line="218" TopLine="199"/>
+      </Position11>
+      <Position12>
+        <Filename Value="simpleobject.pas"/>
+        <Caret Line="219" TopLine="199"/>
+      </Position12>
+      <Position13>
+        <Filename Value="simpleobject.pas"/>
+        <Caret Line="214" TopLine="199"/>
+      </Position13>
+      <Position14>
+        <Filename Value="simpleobject.pas"/>
+        <Caret Line="222" TopLine="202"/>
+      </Position14>
+      <Position15>
+        <Filename Value="simpleobject.pas"/>
+        <Caret Line="223" TopLine="203"/>
+      </Position15>
+      <Position16>
+        <Filename Value="simpleobject.pas"/>
+        <Caret Line="224" TopLine="204"/>
+      </Position16>
+      <Position17>
+        <Filename Value="simpleobject.pas"/>
+        <Caret Line="225" TopLine="205"/>
+      </Position17>
+      <Position18>
+        <Filename Value="simpleobject.pas"/>
+        <Caret Line="224" TopLine="205"/>
+      </Position18>
+      <Position19>
+        <Filename Value="simpleobject.pas"/>
+        <Caret Line="226" TopLine="206"/>
+      </Position19>
+      <Position20>
+        <Filename Value="simpleobject.pas"/>
+        <Caret Line="227" TopLine="207"/>
+      </Position20>
+      <Position21>
+        <Filename Value="simpleobject.pas"/>
+        <Caret Line="209" TopLine="205"/>
+      </Position21>
+      <Position22>
+        <Filename Value="simpleobject.pas"/>
+        <Caret Line="124" TopLine="112"/>
+      </Position22>
+      <Position23>
+        <Filename Value="simpleobject.pas"/>
+        <Caret Line="209" TopLine="197"/>
+      </Position23>
+      <Position24>
+        <Filename Value="simpleobject.pas"/>
+        <Caret Line="186" TopLine="177"/>
+      </Position24>
+      <Position25>
+        <Filename Value="simpleobject.pas"/>
+        <Caret Line="187" TopLine="177"/>
+      </Position25>
+      <Position26>
+        <Filename Value="simpleobject.pas"/>
+        <Caret Line="188" Column="36" TopLine="177"/>
+      </Position26>
+      <Position27>
+        <Filename Value="simpleobject.pas"/>
+        <Caret Line="186" TopLine="177"/>
+      </Position27>
+      <Position28>
+        <Filename Value="simpleobject.pas"/>
+        <Caret Line="187" TopLine="177"/>
+      </Position28>
+      <Position29>
+        <Filename Value="simpleobject.pas"/>
+        <Caret Line="188" TopLine="177"/>
+      </Position29>
+      <Position30>
+        <Filename Value="simpleobject.pas"/>
+        <Caret Line="189" TopLine="177"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

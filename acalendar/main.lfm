@@ -1,0 +1,48 @@
+object fmMain: TfmMain
+  Left = 0
+  Height = 1016
+  Top = 64
+  Width = 1920
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsNone
+  BorderWidth = 1
+  Caption = 'Календарь'
+  ClientHeight = 1016
+  ClientWidth = 1920
+  FormStyle = fsSystemStayOnTop
+  KeyPreview = True
+  OnCreate = FormCreate
+  OnKeyPress = FormKeyPress
+  OnPaint = FormPaint
+  LCLVersion = '2.0.12.0'
+  object cal: TCalendar
+    Left = 8
+    Height = 200
+    Top = 40
+    Width = 340
+    DateTime = 43770
+    TabOrder = 0
+  end
+  object btToday: TButton
+    Left = 264
+    Height = 25
+    Top = 8
+    Width = 84
+    Caption = 'Сегодня'
+    OnClick = btTodayClick
+    TabOrder = 1
+  end
+  object lbCap: TLabel
+    Left = 8
+    Height = 25
+    Top = 8
+    Width = 104
+    AutoSize = False
+    Caption = 'Календарь:'
+    Font.Height = -16
+    Font.Name = 'Sans'
+    Layout = tlCenter
+    ParentColor = False
+    ParentFont = False
+  end
+end

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="11"/>
+    <BuildModes Active="Release"/>
+    <Units Count="12">
+      <Unit0>
+        <Filename Value="amenu.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="57"/>
+        <UsageCount Value="28"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="mainmenu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fmMainMenu"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="139"/>
+        <CursorPos X="14" Y="151"/>
+        <UsageCount Value="28"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="uniqueinstancebase.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UniqueInstanceBase"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="15" Y="11"/>
+        <UsageCount Value="20"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="uniqueinstanceraw.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="/opt/laz/uniqueinstance/uniqueinstancebase.pas"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="/opt/laz/uniqueinstance/uniqueinstanceraw.pas"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../lib/uniqueinstance/uniqueinstancebase.pas"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="../lib/uniqueinstance/uniqueinstanceraw.pas"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="/usr/lib/lazarus/lcl/lcltype.pp"/>
+        <UnitName Value="LCLType"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="433"/>
+        <CursorPos X="3" Y="449"/>
+        <UsageCount Value="12"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="/usr/lib/fpc/src/packages/fcl-process/src/process.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="34"/>
+        <CursorPos X="3" Y="50"/>
+        <UsageCount Value="10"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="/usr/lib/fpc/src/rtl/objpas/sysutils/syshelph.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="3" Y="5"/>
+        <UsageCount Value="10"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="/usr/lib/lazarus/lcl/include/wincontrol.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="5642"/>
+        <CursorPos Y="5658"/>
+        <UsageCount Value="10"/>
+      </Unit11>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="mainmenu.pas"/>
+        <Caret Line="263" TopLine="257"/>
+      </Position1>
+      <Position2>
+        <Filename Value="mainmenu.pas"/>
+        <Caret Line="264" TopLine="257"/>
+      </Position2>
+      <Position3>
+        <Filename Value="mainmenu.pas"/>
+        <Caret Line="265" TopLine="257"/>
+      </Position3>
+      <Position4>
+        <Filename Value="mainmenu.pas"/>
+        <Caret Line="266" TopLine="257"/>
+      </Position4>
+      <Position5>
+        <Filename Value="mainmenu.pas"/>
+        <Caret Line="267" TopLine="257"/>
+      </Position5>
+      <Position6>
+        <Filename Value="mainmenu.pas"/>
+        <Caret Line="268" TopLine="257"/>
+      </Position6>
+      <Position7>
+        <Filename Value="mainmenu.pas"/>
+        <Caret Line="260" TopLine="255"/>
+      </Position7>
+      <Position8>
+        <Filename Value="mainmenu.pas"/>
+        <Caret Line="262" TopLine="255"/>
+      </Position8>
+      <Position9>
+        <Filename Value="mainmenu.pas"/>
+        <Caret Line="263" TopLine="255"/>
+      </Position9>
+      <Position10>
+        <Filename Value="mainmenu.pas"/>
+        <Caret Line="264" TopLine="255"/>
+      </Position10>
+      <Position11>
+        <Filename Value="mainmenu.pas"/>
+        <Caret Line="265" TopLine="255"/>
+      </Position11>
+      <Position12>
+        <Filename Value="mainmenu.pas"/>
+        <Caret Line="266" TopLine="255"/>
+      </Position12>
+      <Position13>
+        <Filename Value="mainmenu.pas"/>
+        <Caret Line="267" TopLine="255"/>
+      </Position13>
+      <Position14>
+        <Filename Value="mainmenu.pas"/>
+        <Caret Line="268" TopLine="255"/>
+      </Position14>
+      <Position15>
+        <Filename Value="mainmenu.pas"/>
+        <Caret Line="269" Column="26" TopLine="252"/>
+      </Position15>
+      <Position16>
+        <Filename Value="mainmenu.pas"/>
+        <Caret Line="262" TopLine="252"/>
+      </Position16>
+      <Position17>
+        <Filename Value="mainmenu.pas"/>
+        <Caret Line="263" TopLine="252"/>
+      </Position17>
+      <Position18>
+        <Filename Value="mainmenu.pas"/>
+        <Caret Line="264" TopLine="252"/>
+      </Position18>
+      <Position19>
+        <Filename Value="mainmenu.pas"/>
+        <Caret Line="265" TopLine="252"/>
+      </Position19>
+      <Position20>
+        <Filename Value="mainmenu.pas"/>
+        <Caret Line="266" TopLine="252"/>
+      </Position20>
+      <Position21>
+        <Filename Value="mainmenu.pas"/>
+        <Caret Line="267" TopLine="252"/>
+      </Position21>
+      <Position22>
+        <Filename Value="mainmenu.pas"/>
+        <Caret Line="268" TopLine="252"/>
+      </Position22>
+      <Position23>
+        <Filename Value="mainmenu.pas"/>
+        <Caret Line="269" TopLine="252"/>
+      </Position23>
+      <Position24>
+        <Filename Value="mainmenu.pas"/>
+        <Caret Line="150" TopLine="135"/>
+      </Position24>
+      <Position25>
+        <Filename Value="mainmenu.pas"/>
+        <Caret Line="262" TopLine="250"/>
+      </Position25>
+      <Position26>
+        <Filename Value="mainmenu.pas"/>
+        <Caret Line="150" Column="43" TopLine="147"/>
+      </Position26>
+      <Position27>
+        <Filename Value="mainmenu.pas"/>
+        <Caret Line="148" TopLine="148"/>
+      </Position27>
+      <Position28>
+        <Filename Value="mainmenu.pas"/>
+        <Caret Line="150" TopLine="146"/>
+      </Position28>
+      <Position29>
+        <Filename Value="mainmenu.pas"/>
+        <Caret Line="148" TopLine="143"/>
+      </Position29>
+      <Position30>
+        <Filename Value="mainmenu.pas"/>
+        <Caret Line="150" TopLine="149"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

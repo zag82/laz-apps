@@ -1,0 +1,50 @@
+object fmBkCalSelect: TfmBkCalSelect
+  Left = 397
+  Height = 264
+  Top = 262
+  Width = 354
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsNone
+  BorderWidth = 1
+  Caption = 'abook'
+  ClientHeight = 264
+  ClientWidth = 354
+  FormStyle = fsStayOnTop
+  KeyPreview = True
+  OnClose = FormClose
+  OnDeactivate = FormDeactivate
+  OnKeyPress = FormKeyPress
+  OnPaint = FormPaint
+  OnShow = FormShow
+  ShowInTaskBar = stNever
+  LCLVersion = '2.0.6.0'
+  object cl: TCalendar
+    Left = 8
+    Height = 208
+    Top = 48
+    Width = 336
+    DateTime = 43914
+    OnDblClick = clDblClick
+    TabOrder = 0
+  end
+  object btToday: TButton
+    Left = 8
+    Height = 33
+    Top = 8
+    Width = 176
+    Caption = 'btToday'
+    OnClick = btTodayClick
+    TabOrder = 1
+  end
+  object btOK: TButton
+    Left = 269
+    Height = 33
+    Top = 8
+    Width = 75
+    Caption = 'OK'
+    Default = True
+    ModalResult = 1
+    OnClick = btOKClick
+    TabOrder = 2
+  end
+end

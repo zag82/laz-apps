@@ -1,0 +1,97 @@
+object fmDialogFiles: TfmDialogFiles
+  Left = 336
+  Height = 379
+  Top = 172
+  Width = 581
+  Caption = 'fmDialogFiles'
+  ClientHeight = 379
+  ClientWidth = 581
+  Position = poMainFormCenter
+  LCLVersion = '2.0.8.0'
+  object pnlControl: TPanel
+    Left = 0
+    Height = 36
+    Top = 343
+    Width = 581
+    Align = alBottom
+    BevelOuter = bvNone
+    ClientHeight = 36
+    ClientWidth = 581
+    TabOrder = 0
+    object btOk: TButton
+      Left = 411
+      Height = 28
+      Top = 4
+      Width = 83
+      Align = alRight
+      BorderSpacing.Around = 4
+      Caption = 'ОК'
+      Default = True
+      OnClick = btOkClick
+      TabOrder = 0
+    end
+    object btCancel: TButton
+      Left = 502
+      Height = 28
+      Top = 4
+      Width = 75
+      Align = alRight
+      BorderSpacing.Left = 4
+      BorderSpacing.Around = 4
+      Cancel = True
+      Caption = 'Отмена'
+      OnClick = btCancelClick
+      TabOrder = 1
+    end
+  end
+  object gbFiles: TGroupBox
+    Left = 4
+    Height = 256
+    Top = 4
+    Width = 573
+    Align = alClient
+    BorderSpacing.Around = 4
+    Caption = 'Файлы проектов'
+    ClientHeight = 236
+    ClientWidth = 571
+    TabOrder = 1
+    object lbFiles: TListBox
+      Left = 8
+      Height = 220
+      Top = 8
+      Width = 555
+      Align = alClient
+      BorderSpacing.Around = 8
+      ExtendedSelect = False
+      ItemHeight = 0
+      OnDblClick = lbFilesDblClick
+      OnSelectionChange = lbFilesSelectionChange
+      ScrollWidth = 553
+      Sorted = True
+      TabOrder = 0
+      TopIndex = -1
+    end
+  end
+  object gbFileSelected: TGroupBox
+    Left = 4
+    Height = 75
+    Top = 264
+    Width = 573
+    Align = alBottom
+    BorderSpacing.Around = 4
+    Caption = 'Имя файла'
+    ClientHeight = 55
+    ClientWidth = 571
+    TabOrder = 2
+    object edFile: TEdit
+      Left = 8
+      Height = 35
+      Top = 8
+      Width = 555
+      Align = alTop
+      BorderSpacing.Around = 8
+      TabOrder = 0
+      Text = 'edFile'
+    end
+  end
+end
